@@ -1,0 +1,11 @@
+.statistic {
+  list-style-type: none;
+  margin: 0;
+  padding: 33px 0 0;
+  }
+
+@media screen and (max-width: 320px) {
+  .statistic {
+    padding: 34px 0 0;
+  }
+}

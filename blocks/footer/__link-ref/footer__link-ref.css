@@ -1,0 +1,23 @@
+.footer__link-ref {
+  transition-duration: 1s;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0 18px 0 0;
+}
+
+.footer__link-ref:hover:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #FFFFFF;
+  }
+  
+    .footer__link-ref:hover {
+  opacity: .5;
+  }
+
+  @media screen and (max-width: 320px) {
+    .footer__link-ref {
+      padding-bottom: 32px;
+    }
+  }

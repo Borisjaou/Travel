@@ -1,0 +1,54 @@
+.cover {
+  display: flex;
+  color: #FFFFFF;
+  background-image: url(../../../russian-travel/images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1184px;
+  height: 740px;
+  position: relative;
+  display: block;
+  z-index: 0;
+  margin: 0 48px 92px;
+}
+
+.cover:after {
+  content: '';
+  transition-duration: 1s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.cover:hover:after {
+  opacity: 0.5;
+  background-color: rgba(42, 44, 47, .5);
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 1024px;
+    height: 640px;
+    margin: 0 0 92px;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    width: 768px;
+    height: 480px;
+    margin: 0 0 88px;
+  }    
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    width: 320px;
+    height: 200px;
+    margin: 0 0 64px;
+  }   
+}

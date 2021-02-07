@@ -1,0 +1,18 @@
+.intro__block {
+  color: #FFFFFF;
+  width: 690px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .intro__block {
+      width: 720px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .intro__block {
+      width: 288px;
+    }
+  }

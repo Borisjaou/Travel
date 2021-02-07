@@ -1,0 +1,29 @@
+.lead__kalegin {
+  background-image: url(../../../images/polka.jpg);
+  width: 984px;
+  height: 615px;
+  background-size: contain;
+}
+@media screen and (max-width: 1024px) {
+  .lead__kalegin {
+    width: 928px;
+    height: 580px;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__kalegin {
+    width: 768px;
+    height: 480px;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__kalegin {
+    width: 320px;
+    height: 200px;
+    background-size: contain;
+  }
+}

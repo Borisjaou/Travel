@@ -1,0 +1,30 @@
+.place__textabout {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  display: grid;
+  grid-template-rows: min-content;
+  row-gap: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__textabout {
+    row-gap: 27px;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .place__textabout {
+    row-gap: 27px;
+    font-size: 16px;
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  .place__textabout {
+    row-gap: 25px;
+    font-size: 16px;
+    padding: 0 16px;
+  } 
+}
