@@ -1,26 +1,23 @@
 .places {
   color: #FFFFFF;
   display: grid;
-  margin: 0 0 79px 305px;
+  margin-bottom: 92px;
   row-gap: 80px;
-}
-
-@media screen and (max-width: 1024px) {
-  .places {
-    margin: 0 48px 92px;
-  }
+  justify-items: center;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    margin: 0 24px 90px;
     row-gap: 73px;
+    margin-bottom: 65px;
+
   }
 }  
 
 @media screen and (max-width: 320px) {
   .places {
-    margin: 0 0 66px;
     row-gap: 50px;
+    margin-bottom: 66px;
   } 
 }

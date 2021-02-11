@@ -5,24 +5,27 @@
   line-height: 14px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  justify-self: start;
-  margin: 18px 0 0 0;
+  margin: 8px auto 0;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__caption {
-    margin: 8px 0 0 0;
+    margin: 8px auto 0;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__caption {
-    margin: 8px 0 0 24px;
+    margin: 8px auto 0;
+    max-width: 716px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__caption {
-    margin: 8px 0 0 16px;
+    max-width: 288px;
+    margin: 8px auto 0;
   }
 }

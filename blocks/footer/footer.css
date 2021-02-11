@@ -2,12 +2,12 @@
   display: flex;
   justify-content: space-between;
   margin: 0 48px 24px;
-  height: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .footer {
     margin: 0 44px 24px;
+    flex-wrap: wrap;
   }  
 }
 

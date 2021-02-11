@@ -1,29 +1,29 @@
 .lead__kalegin {
   background-image: url(../../../images/polka.jpg);
-  width: 984px;
-  height: 615px;
-  background-size: contain;
+  max-width: 984px;
+  min-height: 615px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media screen and (max-width: 1024px) {
   .lead__kalegin {
-    width: 928px;
-    height: 580px;
-    background-size: contain;
+    max-width: 928px;
+    min-height: 580px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__kalegin {
-    width: 768px;
-    height: 480px;
-    background-size: contain;
+    max-width: 768px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__kalegin {
-    width: 320px;
-    height: 200px;
-    background-size: contain;
+    max-width: 320px;
+    min-height: 200px;
+
   }
 }

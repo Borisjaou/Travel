@@ -16,8 +16,15 @@
   opacity: .5;
   }
 
-  @media screen and (max-width: 320px) {
-    .footer__link-ref {
-      padding-bottom: 32px;
-    }
+@media screen and (max-width: 768px) {
+  .footer__link-ref {
+    padding-bottom: 32px;
   }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link-ref {
+    padding-bottom: 32px;
+  }
+}
+  
