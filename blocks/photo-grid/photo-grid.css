@@ -6,15 +6,6 @@
   max-width: 1184px;
   }
 
-@media screen and (max-width: 1024px) {
-  .photo-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    margin: 0 48px 92px;
-    max-width: 928px;
-  }
-}
-  
 @media screen and (max-width: 768px) {
   .photo-grid {
     display: grid;
