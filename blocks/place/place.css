@@ -23,9 +23,9 @@
   }  
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 648px) {
   .place {
-    grid-template-columns: 1fr;
+    grid-template-columns: fit-content(340px);
     row-gap: 32px;
     max-width: 720px;
   } 
@@ -34,7 +34,6 @@
 @media screen and (max-width: 320px) {
   .place {
     grid-template-columns: 1fr;
-    row-gap: 32px;
     max-width: 320px;
   } 
 }

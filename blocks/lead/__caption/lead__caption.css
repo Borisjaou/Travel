@@ -11,14 +11,12 @@
 
 @media screen and (max-width: 1024px) {
   .lead__caption {
-    margin: 8px auto 0;
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__caption {
-    margin: 8px auto 0;
     max-width: 716px;
   }
 }
@@ -26,6 +24,5 @@
 @media screen and (max-width: 320px) {
   .lead__caption {
     max-width: 288px;
-    margin: 8px auto 0;
   }
 }

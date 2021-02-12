@@ -2,7 +2,11 @@
   list-style-type: none;
   margin: 0;
   padding: 33px 0 0;
-  }
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
 
 @media screen and (max-width: 320px) {
   .statistic {

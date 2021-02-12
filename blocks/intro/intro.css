@@ -1,14 +1,11 @@
 .intro {
   margin:0 auto 92px;
   max-width: 984px;
- 
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-    margin:0 auto 92px;
     max-width: 928px;
-
   }
 }
 
@@ -24,6 +21,5 @@
   .intro {
     margin:0 auto 64px;
     max-width: 288px;
-
   }
 }
