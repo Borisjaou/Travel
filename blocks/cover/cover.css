@@ -9,12 +9,13 @@
   display: block;
   z-index: 0;
   margin: 0 48px 92px;
+  max-width: 1184px;
 }
 
 .cover:after {
   content: '';
   transition-duration: 1s;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(42,44,47, 0.8));
   position: absolute;
   top: 0;
   right: 0;
@@ -25,7 +26,7 @@
 
 
 .cover:hover:after {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(42,44,47, 0.8);
 }
 
 @media screen and (max-width: 1024px) {

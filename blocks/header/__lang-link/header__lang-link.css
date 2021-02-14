@@ -1,15 +1,20 @@
-.header__lang-link-ru {
+.header__lang-link {
   font-style: normal;
   font-weight: normal;
   font-size: 23.9965px;
   line-height: 28px;
   color: #FFFFFF;
   margin-left: 18px;
-  text-decoration: underline;
+  text-decoration: none;
+  transition-duration: .5s;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }
 
 @media screen and (max-width: 320px) {
-  .header__lang-link-ru {
+  .header__lang-link {
     font-size: 18px;
     line-height: 20px;
   }

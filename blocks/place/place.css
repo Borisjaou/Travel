@@ -27,7 +27,6 @@
   .place {
     grid-template-columns: fit-content(340px);
     row-gap: 32px;
-    max-width: 720px;
   } 
 }
 

@@ -22,9 +22,4 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .footer__link-ref {
-    padding-bottom: 32px;
-  }
-}
   
